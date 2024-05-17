@@ -1,7 +1,7 @@
 <template>
 	<section id="teams" class="full-screen">
 		<AnimFigure
-			:src="'./images/figure-4.png'"
+			:src="'/images/figure-4.png'"
 			x="-1"
 			y="3"
 			scale="1.2"

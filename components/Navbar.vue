@@ -1,7 +1,7 @@
 <template>
 	<nav :class="{ active: navbar }">
 		<button id="mobile-nav-button" @click="navbar = true">
-			<img src="/images/menu-mobile-icon.png" />
+			<img :src="'/images/menu-mobile-icon.png'" />
 		</button>
 		<button id="nav-button" @click="navbar = true">
 			{{ _getDictionary.btnMenu }}

@@ -1,9 +1,13 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
+  baseUrl: "./",
   target: 'static',
   server: {
     port: 8000,
     host: '0.0.0.0',
+  },
+  router: {
+    base: '/cacg/'
   },
   head: {
     title: 'CACG-2',

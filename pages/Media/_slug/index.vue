@@ -39,37 +39,37 @@
 		</div>
 		<div class="content_wrapper">
 			<AnimFigure
-				:src="'./images/figure-2.png'"
+				:src="'/images/figure-2.png'"
 				x="3"
 				y="5"
 				scale="1.2"
 			/>
 			<AnimFigure
-				:src="'./images/figure-2.png'"
+				:src="'/images/figure-2.png'"
 				x="88"
 				y="40"
 				scale="1.2"
 			/>
 			<AnimFigure
-				:src="'./images/figure-1.png'"
+				:src="'/images/figure-1.png'"
 				x="3"
 				y="55"
 				scale="1.2"
 			/>
 			<AnimFigure
-				:src="'./images/figure-3.png'"
+				:src="'/images/figure-3.png'"
 				x="88"
 				y="65"
 				scale="1.2"
 			/>
 			<AnimFigure
-				:src="'./images/figure-5.png'"
+				:src="'/images/figure-5.png'"
 				x="3"
 				y="75"
 				scale="1.2"
 			/>
 			<AnimFigure
-				:src="'./images/figure-1.png'"
+				:src="'/images/figure-1.png'"
 				x="85"
 				y="86"
 				scale="1.2"
@@ -96,7 +96,7 @@
 		</div>
 		<div class="news_wrapper" v-if="posts.length">
 			<AnimFigure
-				:src="'./images/figure-2.png'"
+				:src="'/images/figure-2.png'"
 				x="36"
 				y="70"
 				scale="1.2"
@@ -135,7 +135,7 @@
 								<button>
 									{{ _getDictionary.btnReadMore }}
 									<img
-										:src="'./images/arrow-to-right.svg'"
+										:src="'/images/arrow-to-right.svg'"
 										alt=""
 									/>
 								</button>

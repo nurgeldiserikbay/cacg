@@ -1,7 +1,7 @@
 <template>
 	<div class="logo">
 		<a href="/" aria-label="logotype">
-			<img src="/images/logo.png" alt="logotype" />
+			<img :src="'/images/logo.png'" alt="logotype" />
 			<span>CACG</span>
 		</a>
 	</div>

@@ -1,13 +1,13 @@
 <template>
 	<section id="video-info">
 		<AnimFigure
-			:src="'./images/figure-2.png'"
+			:src="'/images/figure-2.png'"
 			x="85"
 			y="0"
 			scale="0.8"
 		/>
 		<AnimFigure
-			:src="'./images/figure-2.png'"
+			:src="'/images/figure-2.png'"
 			x="5"
 			y="110"
 			scale="0.8"
@@ -24,8 +24,8 @@
 					<video
 						id="video"
 						ref="video"
-						src="/videos/video.mp4"
-						poster="/images/poster.png"
+						:src="'./videos/video.mp4'"
+						:poster="'./images/poster.png'"
 						:data-plyr-config="JSON.stringify({ hideControls: played })"
 						@play="play"
 						@pause="pause"

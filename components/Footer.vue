@@ -10,7 +10,7 @@
 					<div class="tel">
 						<span class="legend">{{ _getDictionary.footerDataLegend }}</span>
 						<div>
-							<a href="tel:+77074564573"><img :src="'./images/tel.png'" alt="" />+ 7 707 456 45
+							<a href="tel:+77074564573"><img :src="'/images/tel.png'" alt="" />+ 7 707 456 45
 								73</a>
 							<a class="mob-email" href="mailto:info@cacg.kz">
 								<span>-</span> info@cacg.kz</a>
@@ -18,7 +18,7 @@
 					</div>
 					<div class="address">
 						<span class="legend">{{ _getDictionary.footerAddressLegend }}</span>
-						<a href="https://goo.gl/maps/KSyRGVmy22J7wgg28" target="_blank"><img :src="'./images/place.png'"
+						<a href="https://goo.gl/maps/KSyRGVmy22J7wgg28" target="_blank"><img :src="'/images/place.png'"
 								alt="" /></a>{{ _getDictionary.address }}
 					</div>
 				</address>

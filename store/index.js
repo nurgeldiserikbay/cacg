@@ -65,7 +65,7 @@ export const state = () => ({
             "E-learning — это про людей: делаем курс так, чтобы люди работали лучше, не допускали ошибок, были мотивированы учиться.",
             "И еще это про бизнес: чем эффективнее работник, тем круче компания! И первый шаг к созданию такого курса делает педдизайнер, работа которого начинается с разработки сценария.",
           ],
-          img: "./images/team/team1.jpg",
+          img: "/images/team/team1.jpg",
         },
         {
           id: "1",
@@ -74,7 +74,7 @@ export const state = () => ({
             "Наша команда дизайнеров делает каждый курс уникальным, понятным и доступным, придумывая концепцию будущего дизайна.",
             "Визуализация идей, используя цвет, иллюстрацию, графику, анимацию, создание фирменного стиля, 3D объектов, интерфейс— малая часть нашей творческой работы.",
           ],
-          img: "./images/team/team2.jpg",
+          img: "/images/team/team2.jpg",
         },
         {
           id: "2",
@@ -83,7 +83,7 @@ export const state = () => ({
             "Внедрение цифровых технологий в обучение — это не просто перевод обучающих материалов в электронный формат.",
             "Но в тоже время это является одним из важных этапов всего процесса. Наши разработчики переводят идеи дизайнеров на язык программирования, реализуя все желания и требования заказчика.",
           ],
-          img: "./images/team/team3.jpg",
+          img: "/images/team/team3.jpg",
         },
         {
           id: "3",
@@ -92,7 +92,7 @@ export const state = () => ({
             "Основная обязанность PM — довести идею до реализации в срок, используя все ресурсы. Звучит довольно мирно, но за каждым словом скрывается целый ряд непростых задач.",
             "Наши менеджеры видят проект целиком. Учитывают риски. Строят дорожную карту, полностью учитывая потребности клиента. С начала до конца организуя процесс.",
           ],
-          img: "./images/team/team4.jpg",
+          img: "/images/team/team4.jpg",
         },
       ],
       demoTitle: "Наши работы",
@@ -156,31 +156,31 @@ export const state = () => ({
       teamMainText: "Над реализацией проектов в нашей команде работают 20 сотрудников. Каждый из них – успешная личность и профессионал своего дела, а вместе мы – сильная команда!",
       teamPageSlides: [{
           id: "0",
-          src: "./images/team/team1.jpg",
+          src: "/images/team/team1.jpg",
         },
         {
           id: "1",
-          src: "./images/team/team2.jpg",
+          src: "/images/team/team2.jpg",
         },
         {
           id: "2",
-          src: "./images/team/team3.jpg",
+          src: "/images/team/team3.jpg",
         },
         {
           id: "3",
-          src: "./images/team/team4.jpg",
+          src: "/images/team/team4.jpg",
         },
         {
           id: "4",
-          src: "./images/team/team5.jpg",
+          src: "/images/team/team5.jpg",
         },
         {
           id: "5",
-          src: "./images/team/team6.jpg",
+          src: "/images/team/team6.jpg",
         },
         {
           id: "6",
-          src: "./images/team/team7.jpg",
+          src: "/images/team/team7.jpg",
         },
       ],
       teamSecondTitle: "Наши принципы",
@@ -228,24 +228,24 @@ export const state = () => ({
       demoMainText: "Демо – это предварительная версия проектов, представленных будущему заказчику. Здесь мы демонстрируем возможности всех подразделений компании, показываем логику выстраивания курса, отталкиваясь от цели обучения, интерактивность и виды оценивания.",
       demos: [{
           title: "Bi group",
-          src: "./images/demo/bi-logo.png",
+          src: "/images/demo/bi-logo.png",
           text: "BI Group постоянно совершенствует процесс работы и одним из направлений является сокращение сроков строительства. Для решения этой задачи в 2020 году наша компания разработала для ВI ЦОР по практическому применению циклограммы для более эффективного планирования строительства.",
           content: [{
               title: "Практическая часть ЦОРа",
               media: [
-                "./images/demo/bi-img-1.png",
+                "/images/demo/bi-img-1.png",
               ]
             },
             {
               title: "Представление контента в виде схемы",
               media: [
-                "./images/demo/bi-img-2.png",
+                "/images/demo/bi-img-2.png",
               ]
             },
             {
               title: "Пример тестового задания",
               media: [
-                "./images/demo/bi-img-3.png",
+                "/images/demo/bi-img-3.png",
               ]
             },
           ],
@@ -258,22 +258,22 @@ export const state = () => ({
           content: [{
               title: "Примеры интерактива",
               media: [
-                "./images/demo/cacg-img-1.png",
-                "./images/demo/cacg-img-2.png",
+                "/images/demo/cacg-img-1.png",
+                "/images/demo/cacg-img-2.png",
               ]
             },
             {
               title: "",
               media: [
-                "./images/demo/cacg-img-3.png",
-                "./images/demo/cacg-img-4.png",
+                "/images/demo/cacg-img-3.png",
+                "/images/demo/cacg-img-4.png",
               ]
             },
             {
               title: "",
               media: [
-                "./images/demo/cacg-img-5.png",
-                "./images/demo/cacg-img-6.png",
+                "/images/demo/cacg-img-5.png",
+                "/images/demo/cacg-img-6.png",
               ]
             },
           ],
@@ -286,17 +286,17 @@ export const state = () => ({
           content: [{
             title: "Тестовые задания в виде перетаскивания",
             media: [
-              "./images/demo/log-img-1.png",
+              "/images/demo/log-img-1.png",
             ]
           }, {
             title: "Представление контента в виде схемы",
             media: [
-              "./images/demo/log-img-2.png",
+              "/images/demo/log-img-2.png",
             ]
           }, {
             title: "Задание на выбор нескольких правильных ответов",
             media: [
-              "./images/demo/log-img-3.png",
+              "/images/demo/log-img-3.png",
             ]
           }, ],
         },
@@ -307,17 +307,17 @@ export const state = () => ({
           content: [{
             title: "Примеры интерактива",
             media: [
-              "./images/demo/gas-img-1.png",
+              "/images/demo/gas-img-1.png",
             ]
           }, {
             title: "Примеры интерактива",
             media: [
-              "./images/demo/gas-img-2.png",
+              "/images/demo/gas-img-2.png",
             ]
           }, {
             title: "Примеры интерактива",
             media: [
-              "./images/demo/gas-img-3.png",
+              "/images/demo/gas-img-3.png",
             ]
           }, ],
         },
@@ -390,7 +390,7 @@ export const state = () => ({
           text: [
             "E-learning — бұл электрондық оқыту. Біз курстарды адамдар жақсы жұмыс істеуі, қателік жібермеуі және оқуға деген ынтасы болуы үшін жасайды.",
           ],
-          img: "./images/team/team1.jpg",
+          img: "/images/team/team1.jpg",
         },
         {
           id: "1",
@@ -399,7 +399,7 @@ export const state = () => ({
             "Біздің дизайнерлік топ болашақ курстың тұжырымдамасын ойластыра отырып, әр курсты ерекше, түсінікті және қол жетімді етеді.",
             "Түстер, иллюстрация, графика, анимация, корпоративті сәйкестендіру, 3D нысандар, интерфейс арқылы идеяларды визуалдау - бұл біздің шығармашылық жұмысымыздың кішкене бөлігі.",
           ],
-          img: "./images/team/team2.jpg",
+          img: "/images/team/team2.jpg",
         },
         {
           id: "2",
@@ -408,7 +408,7 @@ export const state = () => ({
             "Сандық технологияларды білімге енгізу тек оқу материалдарын электронды форматқа аудару ғана емес.",
             "Бірақ сонымен бірге, бұл бүкіл процестің маңызды кезеңдерінің бірі. Біздің әзірлеушілер тапсырыс берушінің барлық тілектері мен талаптарын жүзеге асыра отырып, дизайнерлердің идеяларын бағдарламалау тіліне аударады.",
           ],
-          img: "./images/team/team3.jpg",
+          img: "/images/team/team3.jpg",
         },
         {
           id: "3",
@@ -417,7 +417,7 @@ export const state = () => ({
             "Жоба жетекшісінің негізгі жауапкершілігі - барлық ресурстарды пайдалана отырып, идеяны уақытында іске асыру.  Біздің менеджерлер барлық жобаны тұтастай көреді. Болатын мәселелерді қарастырып, қауіптердің алдын алады.",
             "Барлық қажеттіліктерді ескере отырып, жол картасын құрастырады. Қысқасы, жобаны басынан аяғына дейін ұйымдастырады.",
           ],
-          img: "./images/team/team4.jpg",
+          img: "/images/team/team4.jpg",
         },
       ],
       demoTitle: "жұмыстарымыз",
@@ -570,24 +570,24 @@ export const state = () => ({
       demoMainText: "Демо - бұл болашақ тапсырыс берушіге ұсынылатын жобалардың алдын-ала нұсқасы. Мұнда біз компанияның барлық бөлімшелерінің мүмкіндіктерін, оқу мақсатынан, интерактивтіліктен және бағалау түрлерінен бастап курсты құру логикасын көрсетеміз.",
       demos: [{
           title: "Bi group",
-          src: "./images/demo/bi-logo.png",
+          src: "/images/demo/bi-logo.png",
           text: "BI Group өзінің жұмыс процесін үнемі жетілдіріп отырады және олардың бағыттарының бірі құрылыс уақытын қысқарту болып табылады. Бұл мәселені шешу және құрылысты тиімді жоспарлау мақсатында 2020 жылы біздің компания циклограмманы іс жүзінде қолдану бойынша BI компаниясына СОР әзірледі.",
           content: [{
               title: "СОР практикалық бөлімі",
               media: [
-                "./images/demo/bi-img-1.png",
+                "/images/demo/bi-img-1.png",
               ]
             },
             {
               title: "Мазмұнды сызба түрінде ұсыну",
               media: [
-                "./images/demo/bi-img-2.png",
+                "/images/demo/bi-img-2.png",
               ]
             },
             {
               title: "Тест тапсырмасының үлгісі",
               media: [
-                "./images/demo/bi-img-3.png",
+                "/images/demo/bi-img-3.png",
               ]
             },
           ],
@@ -600,22 +600,22 @@ export const state = () => ({
           content: [{
               title: "Интерактивті тапсырмалардың мысалдары",
               media: [
-                "./images/demo/cacg-img-1.png",
-                "./images/demo/cacg-img-2.png",
+                "/images/demo/cacg-img-1.png",
+                "/images/demo/cacg-img-2.png",
               ]
             },
             {
               title: "",
               media: [
-                "./images/demo/cacg-img-3.png",
-                "./images/demo/cacg-img-4.png",
+                "/images/demo/cacg-img-3.png",
+                "/images/demo/cacg-img-4.png",
               ]
             },
             {
               title: "",
               media: [
-                "./images/demo/cacg-img-5.png",
-                "./images/demo/cacg-img-6.png",
+                "/images/demo/cacg-img-5.png",
+                "/images/demo/cacg-img-6.png",
               ]
             },
           ],
@@ -628,17 +628,17 @@ export const state = () => ({
           content: [{
             title: "Мәтінге сүйреп апару тест тапсырмалары",
             media: [
-              "./images/demo/log-img-1.png",
+              "/images/demo/log-img-1.png",
             ]
           }, {
             title: "Мазмұнды сызба түрінде ұсыну",
             media: [
-              "./images/demo/log-img-2.png",
+              "/images/demo/log-img-2.png",
             ]
           }, {
             title: "Бірнеше дұрыс жауаптарды таңдау тапсырмалары",
             media: [
-              "./images/demo/log-img-3.png",
+              "/images/demo/log-img-3.png",
             ]
           }, ],
         },
@@ -649,17 +649,17 @@ export const state = () => ({
           content: [{
             title: "Оқу барысында маркерлер қолдану",
             media: [
-              "./images/demo/gas-img-1.png",
+              "/images/demo/gas-img-1.png",
             ]
           }, {
             title: "Бөлшектерді көрсету үшін маркерлерді қолдану",
             media: [
-              "./images/demo/gas-img-2.png",
+              "/images/demo/gas-img-2.png",
             ]
           }, {
             title: "Ашылмалы тізім",
             media: [
-              "./images/demo/gas-img-3.png",
+              "/images/demo/gas-img-3.png",
             ]
           }, ],
         },
@@ -732,7 +732,7 @@ export const state = () => ({
           text: [
             "E-learning is about people: we make the course so that people work better, do not make mistakes, and be motivated to learn. And it's also about business: the more efficient the employee, the cooler the company! And the first step to creating such a course is made by an instructional designer, whose work begins with developing a script.",
           ],
-          img: "./images/team/team1.jpg",
+          img: "/images/team/team1.jpg",
         },
         {
           id: "1",
@@ -740,7 +740,7 @@ export const state = () => ({
           text: [
             "Our design team makes each course unique, understandable and accessible, coming up with a concept for the future design. Visualization of ideas using color, illustration, graphics, animation, corporate identity, 3D objects, interface is a small part of our creative work.",
           ],
-          img: "./images/team/team2.jpg",
+          img: "/images/team/team2.jpg",
         },
         {
           id: "2",
@@ -748,7 +748,7 @@ export const state = () => ({
           text: [
             "The introduction of digital technologies in education is not just transferring the educational materials into electronic format. But at the same time, this is one of the important stages of the whole process. Our developers translate the ideas of designers into the programming language, realizing all the wishes and requirements of the customer.",
           ],
-          img: "./images/team/team3.jpg",
+          img: "/images/team/team3.jpg",
         },
         {
           id: "3",
@@ -756,7 +756,7 @@ export const state = () => ({
           text: [
             "The main responsibility of the PM is to bring the idea to implementation on time, using all resources. Sounds pretty peaceful, but every word hides a whole host of daunting challenges. Our managers see the whole project. Take into account the risks. Build a roadmap fully considering the needs of the client. Organizing the process from start to finish.",
           ],
-          img: "./images/team/team4.jpg",
+          img: "/images/team/team4.jpg",
         },
       ],
       demoTitle: "Our projects",
@@ -818,31 +818,31 @@ export const state = () => ({
       teamMainText: "Our team includes 20 employees working hard on projects. Each of them is a successful person and a professional in their field, and together we are a strong team!",
       teamPageSlides: [{
           id: "0",
-          src: "./images/team/team1.jpg",
+          src: "/images/team/team1.jpg",
         },
         {
           id: "1",
-          src: "./images/team/team2.jpg",
+          src: "/images/team/team2.jpg",
         },
         {
           id: "2",
-          src: "./images/team/team3.jpg",
+          src: "/images/team/team3.jpg",
         },
         {
           id: "3",
-          src: "./images/team/team4.jpg",
+          src: "/images/team/team4.jpg",
         },
         {
           id: "4",
-          src: "./images/team/team5.jpg",
+          src: "/images/team/team5.jpg",
         },
         {
           id: "5",
-          src: "./images/team/team6.jpg",
+          src: "/images/team/team6.jpg",
         },
         {
           id: "6",
-          src: "./images/team/team7.jpg",
+          src: "/images/team/team7.jpg",
         },
       ],
       teamSecondTitle: "our principles",
@@ -890,24 +890,24 @@ export const state = () => ({
       demoMainText: "A demo is a preliminary version of projects presented to a future customer. Here we demonstrate the capabilities of all divisions of the company, show the logic of development of the course, starting from the learning objectives, activity and types of assessment.",
       demos: [{
           title: "Bi group",
-          src: "./images/demo/bi-logo.png",
+          src: "/images/demo/bi-logo.png",
           text: "BI Group is constantly improving its work process and one of their directions is to reduce the construction time. In order to solve this problem and for more efficient construction planning, in 2020, our company has developed a DER for BI to  practically apply the cyclogram.",
           content: [{
               title: "Practical part of the DER",
               media: [
-                "./images/demo/bi-img-1.png",
+                "/images/demo/bi-img-1.png",
               ]
             },
             {
               title: "Presentation of content in the form of a diagram",
               media: [
-                "./images/demo/bi-img-2.png",
+                "/images/demo/bi-img-2.png",
               ]
             },
             {
               title: "Sample test task",
               media: [
-                "./images/demo/bi-img-3.png",
+                "/images/demo/bi-img-3.png",
               ]
             },
           ],
@@ -920,22 +920,22 @@ export const state = () => ({
           content: [{
               title: "Examples of the interactive tasks",
               media: [
-                "./images/demo/cacg-img-1.png",
-                "./images/demo/cacg-img-2.png",
+                "/images/demo/cacg-img-1.png",
+                "/images/demo/cacg-img-2.png",
               ]
             },
             {
               title: "",
               media: [
-                "./images/demo/cacg-img-3.png",
-                "./images/demo/cacg-img-4.png",
+                "/images/demo/cacg-img-3.png",
+                "/images/demo/cacg-img-4.png",
               ]
             },
             {
               title: "",
               media: [
-                "./images/demo/cacg-img-5.png",
-                "./images/demo/cacg-img-6.png",
+                "/images/demo/cacg-img-5.png",
+                "/images/demo/cacg-img-6.png",
               ]
             },
           ],
@@ -948,17 +948,17 @@ export const state = () => ({
           content: [{
             title: "Drag-and-drop questions",
             media: [
-              "./images/demo/log-img-1.png",
+              "/images/demo/log-img-1.png",
             ]
           }, {
             title: "Presentation of content in the form of a diagram",
             media: [
-              "./images/demo/log-img-2.png",
+              "/images/demo/log-img-2.png",
             ]
           }, {
             title: "Multiple choice questions",
             media: [
-              "./images/demo/log-img-3.png",
+              "/images/demo/log-img-3.png",
             ]
           }, ],
         },
@@ -969,17 +969,17 @@ export const state = () => ({
           content: [{
             title: "Using markers in learning process",
             media: [
-              "./images/demo/gas-img-1.png",
+              "/images/demo/gas-img-1.png",
             ]
           }, {
             title: "Using markers to display the details of items",
             media: [
-              "./images/demo/gas-img-2.png",
+              "/images/demo/gas-img-2.png",
             ]
           }, {
             title: "Drop-down list",
             media: [
-              "./images/demo/gas-img-3.png",
+              "/images/demo/gas-img-3.png",
             ]
           }, ],
         },

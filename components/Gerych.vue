@@ -1,9 +1,9 @@
 <template>
 	<div class="wrapper">
-		<Triangles class="triangles triangle-blue" :x="x" :y="y" :speed="80" :src="'./images/triangle-blue.svg'" />
-		<Triangles :x="x" :y="y" :speed="30" class="triangles triangle-red" :src="'./images/triangle-red.svg'" />
-		<Triangles :x="x" :y="y" :speed="60" class="triangles triangle-yellow" :src="'./images/triangle-yellow.svg'" />
-		<img class="main_img" :src="'./images/gerych.png'" alt="" />
+		<Triangles class="triangles triangle-blue" :x="x" :y="y" :speed="80" :src="'/images/triangle-blue.svg'" />
+		<Triangles :x="x" :y="y" :speed="30" class="triangles triangle-red" :src="'/images/triangle-red.svg'" />
+		<Triangles :x="x" :y="y" :speed="60" class="triangles triangle-yellow" :src="'/images/triangle-yellow.svg'" />
+		<img class="main_img" :src="'/images/gerych.png'" alt="" />
 		<div class="glitch">
 			<div class="glitch__item"></div>
 			<div class="glitch__item"></div>

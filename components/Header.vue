@@ -16,7 +16,7 @@
 					<button @click="langsActive && _set_lang(elem)">{{ elem }}</button>
 				</li>
 			</ul>
-			<button><img src="/images/arrow-to-down.svg" /></button>
+			<button><img :src="'/images/arrow-to-down.svg'" /></button>
 		</div>
 		<Navbar />
 	</header>
