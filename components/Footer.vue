@@ -1,6 +1,6 @@
 <template>
 	<footer class="footer">
-		<AnimFigure :src="'/images/figure-6.png'" x="70" y="-20" scale="1.2" />
+		<AnimFigure :src="'./images/figure-6.png'" x="70" y="-20" scale="1.2" />
 		<div class="footer-top">
 			<Logotype />
 		</div>
@@ -10,7 +10,7 @@
 					<div class="tel">
 						<span class="legend">{{ _getDictionary.footerDataLegend }}</span>
 						<div>
-							<a href="tel:+77074564573"><img :src="'/images/tel.png'" alt="" />+ 7 707 456 45
+							<a href="tel:+77074564573"><img :src="'./images/tel.png'" alt="" />+ 7 707 456 45
 								73</a>
 							<a class="mob-email" href="mailto:info@cacg.kz">
 								<span>-</span> info@cacg.kz</a>
@@ -18,7 +18,7 @@
 					</div>
 					<div class="address">
 						<span class="legend">{{ _getDictionary.footerAddressLegend }}</span>
-						<a href="https://goo.gl/maps/KSyRGVmy22J7wgg28" target="_blank"><img :src="'/images/place.png'"
+						<a href="https://goo.gl/maps/KSyRGVmy22J7wgg28" target="_blank"><img :src="'./images/place.png'"
 								alt="" /></a>{{ _getDictionary.address }}
 					</div>
 				</address>
@@ -45,7 +45,7 @@
 			<div class="email-card">
 				<div>
 					<span>{{ _getDictionary.footerEmailCaption }}</span>
-					<a href="mailto:info@cacg.kz"><img :src="'/images/email-arrow.png'" alt="" />
+					<a href="mailto:info@cacg.kz"><img :src="'./images/email-arrow.png'" alt="" />
 						info@cacg.kz</a>
 				</div>
 			</div>

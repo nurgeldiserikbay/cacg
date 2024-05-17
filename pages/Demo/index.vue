@@ -1,19 +1,19 @@
 <template>
 	<section id="demo">
 		<AnimFigure
-			:src="'/images/figure-2.png'"
+			:src="'./images/figure-2.png'"
 			x="60"
 			y="2"
 			scale="1.2"
 		/>
 		<AnimFigure
-			:src="'/images/figure-3.png'"
+			:src="'./images/figure-3.png'"
 			x="2"
 			y="40"
 			scale="1.2"
 		/>
 		<AnimFigure
-			:src="'/images/figure-4.png'"
+			:src="'./images/figure-4.png'"
 			x="88"
 			y="60"
 			scale="1.2"

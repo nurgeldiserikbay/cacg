@@ -1,25 +1,25 @@
 <template>
 	<section id="about-compony">
 		<AnimFigure
-			:src="'/images/figure-1.png'"
+			:src="'./images/figure-1.png'"
 			x="70"
 			y="20"
 			scale="1.2"
 		/>
 		<AnimFigure
-			:src="'/images/figure-2.png'"
+			:src="'./images/figure-2.png'"
 			x="7"
 			y="50"
 			scale="0.8"
 		/>
 		<AnimFigure
-			:src="'/images/figure-3.png'"
+			:src="'./images/figure-3.png'"
 			x="83"
 			y="75"
 			scale="0.8"
 		/>
 		<AnimFigure
-			:src="'/images/figure-4.png'"
+			:src="'./images/figure-4.png'"
 			x="5"
 			y="88"
 			scale="2.0"

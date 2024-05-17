@@ -1,11 +1,11 @@
 <template>
 	<section id="counter" ref="counter">
-		<AnimFigure :src="'/images/figure-3.png'" x="87" y="3" scale="1" />
+		<AnimFigure :src="'./images/figure-3.png'" x="87" y="3" scale="1" />
 		<h2 class="gs_reveal">{{ _getDictionary.counterTitle }}</h2>
 		<div class="row">
 			<div class="counter counter-1 gs_reveal" data-gsapduration="0.9">
 				<img
-					:src="'/images/counter-icon-1.png'"
+					:src="'./images/counter-icon-1.png'"
 					alt=""
 					class="counter-icon"
 				/>
@@ -14,7 +14,7 @@
 			</div>
 			<div class="counter counter-2 gs_reveal" data-gsapduration="0.5">
 				<img
-					:src="'/images/counter-icon-2.png'"
+					:src="'./images/counter-icon-2.png'"
 					alt=""
 					class="counter-icon"
 				/>
@@ -25,7 +25,7 @@
 			</div>
 			<div class="counter counter-3 gs_reveal" data-gsapduration="0.9">
 				<img
-					:src="'/images/counter-icon-3.png'"
+					:src="'./images/counter-icon-3.png'"
 					alt=""
 					class="counter-icon"
 				/>

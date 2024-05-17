@@ -56,11 +56,11 @@
 			</div>
 			<div class="team_info_control">
 				<button class="left" @click="clcLeft">
-					<img :src="'/images/slide-left.svg'" alt="" />
+					<img :src="'./images/slide-left.svg'" alt="" />
 				</button>
 				<div class="counter">{{ current + 1 }} / {{ slides.length }}</div>
 				<button class="right" @click="clcRight">
-					<img :src="'/images/slide-right.svg'" alt="" />
+					<img :src="'./images/slide-right.svg'" alt="" />
 				</button>
 			</div>
 		</div>

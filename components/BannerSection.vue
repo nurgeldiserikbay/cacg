@@ -1,7 +1,7 @@
 <template>
 	<section id="banner" @mouseover="moveTriangles" @mouseleave="mouseleave">
 		<AnimFigure
-			:src="'/images/figure-1.png'"
+			:src="'./images/figure-1.png'"
 			x="40"
 			y="10"
 			scale="1"
